@@ -4,11 +4,11 @@ const router = express.Router()
 
 //GET all workouts
 router.get('/', (req, res) => {
-    res.json({mssg: 'GET all workoits'})
+    res.json({mssg: 'GET all workouts'})
 })
 
 //GET a signle workout
-router.get('/:id', (res, req) => {
+router.get('/:id', (req, res) => {
     res.json({mssg: "GET a single workout"})
 })
 
