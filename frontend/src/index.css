@@ -45,8 +45,8 @@ header a{
 }
 
 .workout-details{
-  background: #fff;
-  border-radius: 4px;
+  background: #ffffff;
+  border-radius: 10px;
   margin: 20px auto;
   padding: 20px;
   position: relative;
@@ -60,7 +60,7 @@ header a{
 }
 
 .workout-details p{
-  margin: 0;
+  margin: 0 0 2px 0;
   font-size: 0.9em;
   color: #555;
 }
